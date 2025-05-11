@@ -55,5 +55,16 @@ otp.expire-scheduler.interval-ms=5000
 
 spring.sql.init.mode=always
 spring.sql.init.schema-locations=classpath:schema.sql
+```
+## 🧠 Особенности
+JWT-токены для аутентификации
+
+Планировщик (Scheduler) помечает OTP-коды как EXPIRED
+
+Простая RBAC (роли): admin / user
+
+Расширяемый DAO-слой
+
+Отправка Email через JavaMail
 
 
